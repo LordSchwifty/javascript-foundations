@@ -11,11 +11,9 @@ class Dragon {
  }
  eat() {
     this.full ++
-    if(this.full >= 3) {
-        this.hungry === false
-   
-    }
-
- }
+    if(this.full === 3) {
+        this.hungry = false
+   }
+}
 }
 module.exports = Dragon;
